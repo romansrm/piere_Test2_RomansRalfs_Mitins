@@ -1,0 +1,30 @@
+@use '../util' as util;
+
+.sapnis-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+    
+    &__dreamers > h3, &__employers > h3 {
+
+        font-family: 'Oswald';
+        font-weight: 500;
+        margin: 0 0;
+        color: var(--text-color);
+
+    }
+
+    > div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+
+}

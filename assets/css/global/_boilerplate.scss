@@ -1,0 +1,34 @@
+@use '../util' as util;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: #fff;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    
+    background-image: url('../assets/img/headerUnion.png');
+
+    font-family: util.$font-header;
+    font-size: 18px;
+
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    overflow: visible;
+
+}

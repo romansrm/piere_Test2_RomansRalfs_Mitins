@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+
+<title>oomp</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dist/style.css">
+
+<script src="../assets/js/theme.js"></script>
+
+    <header>
+        <div class="header-container">
+            <image class="header-container__image" src="../assets/img/piere_task2_header_logo.png"></image>
+                <div class="header-container__links">
+
+                    <a href="#">Ideja</a>
+                    <a href="#">Piesaki Sapni</a>
+                    <a href="#">Uzņēmējiem</a>
+                    <a href="#">Sapņu banka</a>
+                    <a href="#">Sapņu atbalsts</a>
+                    <a href="#">99 iedvesmas stāsti</a>
+
+                </div>
+            <label style="margin-right: 12.51px;">LV</label>
+        </div>
+    </header>
+
+    <body>
+        <div class="body-container">
+            <div class="body-container__image">
+                <input type="button">
+            </div>
+            <p>
+                SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. 
+                Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli
+                padarītu par labāku vietu mums visiem. Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - 
+                tiek radīti arī 99 stāsti par Latvijas sievietēm.
+            </p>
+            <!-- Image koletīvs -->
+            <div class="sapnis-container">
+                <div class="sapnis-container__dreamers">
+
+                    <h3> VĒLIES PIEPILDĪT SAVU SAPNI? </h3>
+                    <input type = "button" class = "sapnis-container__button" value="Sapņotājiem">
+
+                </div>
+                <div class="sapnis-container__employers">
+
+                    <h3> VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI? </h3>
+                    <input type = "button" class = "sapnis-container__button" value="Uzņēmējiem" >
+
+                </div>
+            </div>
+            <div class = "form-container">
+
+                <h3> SAZINĀTIES AR MUMS </h3>
+                <div class = "form-container__input-fields">
+
+                    <input type="text" class = "text-input" id="first-last-name" placeholder= "Vārds, Uzvārds*">
+                    <input type="text" class = "text-input" id="email" placeholder= "E-pasts*">
+                    <input type="text" class = "text-input" id= "phone-number" placeholder= "Telefons*">
+                    <textarea type="text-field" class = "text-input" id = "comments" placeholder= "Jautājums, vai komentārs*"></textarea>
+
+                </div>
+
+                <p id = "error-message">* obligāti aizpildāmie lauki</p>
+                <div id = "terms-check-row">
+                    <input type = "checkbox" id = "terms-check">
+                    <p>
+                        Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā
+                        un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.
+                    </p>
+                </div>
+                <input type="button" id="form-confirm" value= "Sūtīt" onclick= "formSubmit()">
+            </div>
+
+        </div>
+
+    </body>
+</html>

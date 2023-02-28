@@ -1,0 +1,47 @@
+
+//buttons
+input[type="button"] {
+
+    background-color: var(--button-color);
+    border: 0;
+    transition: background-color 0.15s ease-in;
+    
+
+
+}
+input[type="button"]:hover{
+
+    background-color: var(--button-hover-color);   
+    
+}
+
+input[type="button"]:active{
+
+    background-color: #FF8A00;
+    
+}
+//this for sure can be structured better
+.sapnis-container__button{
+
+    margin: 50px 0;
+    height: 50px;
+    width: 233px;
+    border-radius: 25px;
+    
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+#form-confirm{
+
+    height: 62px;
+    width: 182px;
+    border-radius: 31px;
+    
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+

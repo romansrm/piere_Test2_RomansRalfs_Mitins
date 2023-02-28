@@ -1,0 +1,104 @@
+@use '../util' as util;
+
+.form-container{
+
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >p {
+
+        font-size: 14px;
+        overflow-wrap: break-word;
+        align-self: flex-start;
+        margin-top: 15px;
+    }
+
+    > #terms-check-row{
+
+        margin-bottom: 50px;
+
+        >p {
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 17px;
+        }
+
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin-top: 25px;
+
+        //absolutely refuses to make any style changes
+        > input[type="checkbox"] {
+
+            width: 16px;
+            height: 16px;
+
+            margin-right: 21px;
+
+            background-color: rgba(196, 196, 196, 0.4); //change to var colors
+            border-radius: 3px;
+            border: 0px;
+            
+
+        }
+
+    }
+
+    &__input-fields{
+
+        width: 612px;
+        padding: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px 10px;
+
+        > .text-input {
+            
+            font-family: util.$font-text;
+            font-weight: 400;
+            font-size: 18px;
+            resize: none;
+            outline: none;
+            
+            //* this is not working for some unknown reason
+            color: #2F4858;
+
+            ::placeholder{
+
+                color: #2F4858;
+
+            }
+            //*
+
+            padding-left: 12px;
+            width: 296px;
+            height: 43px;
+            border: 0;
+            background-color: rgba(196, 196, 196, 0.4); //change to var color
+            border-radius: 6px;
+        
+        }
+
+        > #phone-number {
+
+            width: 612px;
+
+        }
+        
+        > #comments{
+
+            padding-top: 12px;
+            width: 612px;
+            height: 232px;
+
+        }
+    }
+}
