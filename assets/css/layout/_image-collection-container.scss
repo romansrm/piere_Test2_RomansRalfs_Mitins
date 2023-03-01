@@ -1,0 +1,44 @@
+.image-collection-container{
+    width: 100%;
+    height: 398px;
+    background-color: antiquewhite;
+    margin-bottom: 150px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+    &__images {
+        order: 2;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        width: 100%;
+        height: 383px;
+        position: absolute;
+        
+
+    }
+}
+
+img[id="ripped_top"]{
+    order: 1;
+    width: 100%;
+    z-index: 2;
+    overflow: visible;
+    
+}
+
+img[id="ripped_bottom"]{
+    order: 3;
+    overflow: visible;
+    transform: scaleY(-1);
+    width: 100%;
+    align-self: flex-end;
+    z-index: 2;
+    position: absolute;
+    bottom: -1px;
+}

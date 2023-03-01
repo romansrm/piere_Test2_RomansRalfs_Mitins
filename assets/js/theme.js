@@ -15,6 +15,7 @@ function formSubmit(){
 
             empty_count += 1;
             document.getElementById("error-message").style.color = "#C03221";
+            document.getElementById("terms-check").style.border = "1px solid #C03221"
 
         }
         if (empty_count === 0){

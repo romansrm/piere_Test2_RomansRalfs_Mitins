@@ -17,33 +17,41 @@
 
     > #terms-check-row{
 
+        align-self: flex-start;
+        
         margin-bottom: 50px;
+        gap: 0 21px;
 
         >p {
+
             font-size: 14px;
             font-weight: 400;
             font-style: normal;
             line-height: 17px;
+            width: 512px;
+            
         }
 
         display: flex;
         flex-direction: row;
-        align-items: baseline;
+        align-items: center;
         margin-top: 25px;
 
-        //absolutely refuses to make any style changes
-        > input[type="checkbox"] {
-
+        // this will be an entire show to remake for it to actually work so ill be doing this as last
+        > #terms-check {
+            
+            appearance: none;
+            align-self: baseline;
+            
             width: 16px;
             height: 16px;
 
-            margin-right: 21px;
-
+            margin: 0 0;
+            
             background-color: rgba(196, 196, 196, 0.4); //change to var colors
             border-radius: 3px;
             border: 0px;
             
-
         }
 
     }
@@ -68,7 +76,7 @@
             resize: none;
             outline: none;
             
-            //* this is not working for some unknown reason
+            //* this is not working for some unknown (to me) reason
             color: #2F4858;
 
             ::placeholder{
