@@ -22,11 +22,14 @@ Created with:
 Elements:
   * Footer(s)
   * Gallery span
+  * Play button having a triangle
+  * Checkbox style (can't figure out the problema so far)
     
 Layout:
   * Responsiveness for 1920x1080
   * Responsiveness for Mobile
   * Responsiveness for (in general)
+  * 'Video' scaling correctly and the button
     
 Optimisation:
   * Any
@@ -35,5 +38,6 @@ Logic:
   * Check if email is valid
   * Check if phone-number is valid
   * Check if check-box is checked
-    
-    
+   
+ 
+ 
