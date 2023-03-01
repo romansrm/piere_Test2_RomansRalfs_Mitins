@@ -34,5 +34,6 @@ Optimisation:
 Logic:
   * Check if email is valid
   * Check if phone-number is valid
+  * Check if check-box is checked
     
     
