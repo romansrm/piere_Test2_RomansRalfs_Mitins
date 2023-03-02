@@ -25,9 +25,10 @@ function formSubmit(){
         }
     });
 
-    //check if fields empty
+    //check if fields empty -- ingeneral check for whitespaces outside of comments field
         //if empty, red border
     //check if email, phone is valid
+        //use includes() and for phone check lenght
         //if not, red border, 
     //check if check box checked
         //if not, red border (LOL ES CERU)

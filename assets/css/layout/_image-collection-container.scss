@@ -10,16 +10,33 @@
     
 
     &__images {
+
         order: 2;
         align-self: center;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        
+        flex-wrap: wrap;
         width: 100%;
         height: 383px;
         position: absolute;
         
+            > #small-image-container{
+                
+                height: 364px;
+                display: flex;
+                flex-direction: column;
+                padding-top: 17px;
+
+            }
+       
+            >.small-img{
+                
+                height: 50%;
+                width: 298px;
+                
+            }
+      
 
     }
 }
@@ -40,5 +57,7 @@ img[id="ripped_bottom"]{
     align-self: flex-end;
     z-index: 2;
     position: absolute;
+
+    //tur savādāk 1 pixelis rādās baigi
     bottom: -1px;
 }

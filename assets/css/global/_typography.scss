@@ -52,3 +52,28 @@ a, a:visited, a:active{
     text-decoration: none;
     color: #000;
 }
+//figma šie pirmie 2 bija weight 500 but vinni tik lloti neizskatijaas 500
+.footer-text{
+
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.footer-smallText{
+
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.footer-largeText{
+
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+
+}

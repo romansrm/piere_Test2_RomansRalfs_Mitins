@@ -1,11 +1,78 @@
 footer{
+
     width: 100%;
+    height: 383.34px;
+
 }
 
 .footer-container{
-    width: inherit;
-    height: 324.34px;
 
+
+    > img {
+        
+        margin: 0px 137px 0px 62px;
+
+    }
+
+    width: inherit;
+    height: 383.34px;
+    padding: 13px;
+    padding-top: 59px;
     background-color: #2F4858;
 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    &__navigation-text, &__company-text, &__juris-text{
+
+        > .footer-largeText {
+            margin-bottom: 12px;
+        }
+        height: 85%;
+        gap: 21px 0px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    &__navigation-text{
+        padding-top: 5px;
+    }
+    &__company-text{
+        height: 50%;
+        gap: 10px 0px;
+
+    }
+
+    &__juris-text{
+        height: 50%;
+        gap: 10px 0px;
+        align-items: flex-end;
+
+    }
+    #footer-last-column{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    #icons {
+        display: flex;
+        width: inherit;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 36px;
+        gap: 0px 29px;
+    }
+    #footer-first-column{
+        width: 182px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
