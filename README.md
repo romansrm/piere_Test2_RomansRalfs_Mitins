@@ -15,21 +15,20 @@ Written in VSC
 Created with:
   * HTML
   * JavaScript
-  * CSS
-  * SCSS
+  * CSS (SCSS)
 
-## Current missing features:
+## Current missing/broken features:
 Elements:
-  * Footer(s)
-  * Gallery span
+  * Footer content
   * Play button having a triangle
-  * Checkbox style (can't figure out the problema so far)
+  * Checkbox being functional
     
 Layout:
   * Responsiveness for 1920x1080
   * Responsiveness for Mobile
   * Responsiveness for (in general)
   * 'Video' scaling correctly and the button
+  * Gallery span is ... 
     
 Optimisation:
   * Any
@@ -39,5 +38,5 @@ Logic:
   * Check if phone-number is valid
   * Check if check-box is checked
    
- 
- 
+Style:
+  * Checkbox check
