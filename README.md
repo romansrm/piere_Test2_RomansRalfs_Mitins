@@ -7,7 +7,7 @@ Frontend test for an internship for piere (no vārda pieredze).
 
 Design src= https://www.figma.com/file/Tm8WLlWr50YDMpg2oOGErO/Untitled?node-id=0%3A1&t=jtHH7TBT238KBohU-0
 
-Due date: 05.03.2023
+Due date: < 05.03.2023
 
 ## Technologies used
 Written in VSC
@@ -19,16 +19,13 @@ Created with:
 
 ## Current missing/broken features:
 Elements:
-  * Footer content
-  * Play button having a triangle
+  * Footer having a rip
   * Checkbox being functional
     
 Layout:
-  * Responsiveness for 1920x1080
-  * Responsiveness for Mobile
-  * Responsiveness for (in general)
-  * 'Video' scaling correctly and the button
-  * Gallery span is ... 
+  * Mobile format
+  * Responsiveness (in general)
+  * Gallery span is STILL in shambles
     
 Optimisation:
   * Any
